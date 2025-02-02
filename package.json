@@ -1,0 +1,16 @@
+{
+  "name": "@md-editor/workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @md-editor/play dev"
+  },
+  "dependencies": {
+    "@md-editor/core": "workspace:*",
+    "@md-editor/utils": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
