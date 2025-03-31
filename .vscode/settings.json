@@ -1,0 +1,18 @@
+{
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/packages/components/**": "${filename}.${extname}「Components」",
+    "**/packages/core/**": "${filename}.${extname}「Core」",
+    "**/packages/hooks/**": "${filename}.${extname}「Hooks」",
+    "**/packages/play/**": "${filename}.${extname}「Play」",
+    "**/packages/theme/**": "${filename}.${extname}「Theme」",
+    "**/packages/utils/**": "${filename}.${extname}「Utils」"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 为ESLint启用“保存时自动修复”，摒弃仍然具有格式化和快捷键修复功能
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  }
+}
