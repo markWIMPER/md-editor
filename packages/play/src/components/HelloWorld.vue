@@ -1,26 +1,15 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
-import { renderMarkdown } from "@md-editor/core";
+  import { MESplitter } from 'md-editor';
 
-const text = ref("");
-
-const html = computed(() => renderMarkdown(text.value));
+  // const html = computed(() => renderMarkdown(text.value));
 </script>
 
 <template>
-  <div v-html="html"></div>
-
-  <textarea
-    name="textarea"
-    id="editor"
-    cols="30"
-    rows="10"
-    v-model="text"
-  ></textarea>
+  <MESplitter :min="12"></MESplitter>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+  .read-the-docs {
+    color: #888;
+  }
 </style>

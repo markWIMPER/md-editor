@@ -1,0 +1,9 @@
+{
+  "include": ["packages/components/**/*.tsx"],
+  "compilerOptions": {
+    "isolatedModules": true,
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue"
+  }
+}
